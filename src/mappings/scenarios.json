@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "id": {
+      "type": "long"
+    },
+    "vec": {
+      "analyzer": "scenario_analyzer",
+      "search_analyzer": "scenario_analyzer",
+      "type": "text"
+    }
+  }
+}
