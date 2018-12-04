@@ -8,8 +8,6 @@ Mode d'emploi
 ```sh
 cd src
 docker build -t mappings:0.0.1 mappings
-
-
 docker run -d -p 127.0.0.1:9411:9200 mappings:0.0.1
 docker build -t poseidon:0.0.1 .
 ```
